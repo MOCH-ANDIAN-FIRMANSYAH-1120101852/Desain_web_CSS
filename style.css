@@ -1,0 +1,140 @@
+header nav {
+  padding: 0px, 10px, 0px, 10px;
+  height: 70px;
+  background-color: #5bcc0f;
+  color: white;
+}
+
+header nav h1 {
+  float: left;
+  margin-left: 20px;
+}
+
+header nav ul {
+  float: right;
+  height: 50%;
+  width: 50%;
+  padding-top: 20px;
+  margin: 0px;
+  list-style: none;
+}
+
+header nav ul li {
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #ecdfdf;
+}
+
+header nav ul li a:hover {
+  color: rgb(10, 44, 3);
+}
+
+header .judul {
+  text-align: center;
+}
+
+header .judul h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+header .judul p {
+  font-size: 24px;
+}
+
+main {
+  background-color: #5bcc0f;
+  padding: 10px;
+  width: 1234px;
+  height: 500px;
+}
+
+main section {
+  color: white;
+  background-color: #0c5305;
+  width: 802.1px;
+  height: 100%;
+  float: left;
+}
+
+main section .artikel {
+  text-align: center;
+}
+
+main section .artikel h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+main section article h3 {
+  font-size: 20.8px;
+}
+
+main section article article h4 {
+  font-size: 19.2px;
+}
+
+main aside {
+  color: #ffffff;
+  background-color: #0c5305;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  width: 308.5px;
+  height: 100%;
+  float: right;
+}
+
+main aside .tambahan {
+  text-align: center;
+}
+
+footer {
+  background-color: #5bcc0f;
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px;
+  color: white;
+  height: 200px;
+}
+
+footer .kiri {
+  width: 60%;
+  float: left;
+  height: 100%;
+}
+
+footer .kiri .nama {
+  width: 50%;
+  float: left;
+}
+
+footer .kiri .kontak {
+  width: 45%;
+  float: right;
+}
+
+footer .kiri .kontak a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .link-tambahan {
+  height: 100%;
+  width: 25%;
+}
+
+footer .link-tambahan a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .kanan {
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */

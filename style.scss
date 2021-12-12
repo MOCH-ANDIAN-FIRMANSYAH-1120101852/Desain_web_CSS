@@ -1,0 +1,138 @@
+$Warnanavfoot: rgb(31, 175, 241);
+$widthmain: 1234px;
+$font: 16px;
+$warnaMain: rgb(65, 65, 226);
+$warnaSection: rgb(30, 30, 139);
+$warnaAside: rgb(44, 44, 95);
+$warnaFontSection: white;
+$warnaFontAside: #ffffff;
+$warnaFontFooter: white;
+$WarnaLinkFooter: white;
+header {
+  nav {
+    padding: 0px, 10px, 0px, 10px;
+    height: 70px;
+    background-color: $Warnanavfoot;
+    color: white;
+    h1 {
+      float: left;
+      margin-left: 20px;
+    }
+    ul {
+      float: right;
+      height: 50%;
+      width: 50%;
+      padding-top: 20px;
+      margin: 0px;
+      list-style: none;
+      li {
+        text-align: center;
+        display: inline-block;
+        width: 30%;
+        a {
+          text-decoration: none;
+          color: rgb(236, 223, 223);
+        }
+        a:hover {
+          color: rgb(255, 255, 255);
+        }
+      }
+    }
+  }
+  .judul {
+    text-align: center;
+    h1 {
+      font-size: $font * 4;
+      font-weight: bold;
+    }
+    p {
+      font-size: $font * 1.5;
+    }
+  }
+}
+
+main {
+  background-color: $warnaMain;
+  padding: 10px;
+  width: $widthmain;
+
+  height: 500px;
+  section {
+    color: $warnaFontSection;
+    background-color: $warnaSection;
+    width: $widthmain * 0.65;
+    height: 100%;
+
+    float: left;
+    .artikel {
+      text-align: center;
+      h2 {
+        font-size: $font * 3;
+        font-weight: bold;
+      }
+    }
+    article {
+      h3 {
+        font-size: $font * 1.3;
+      }
+
+      article {
+        h4 {
+          font-size: $font * 1.2;
+        }
+      }
+    }
+  }
+  aside {
+    color: $warnaFontAside;
+    background-color: $warnaAside;
+    box-sizing: border-box;
+    padding: 10px;
+    width: $widthmain * 0.25;
+    height: 100%;
+
+    float: right;
+    .tambahan {
+      text-align: center;
+    }
+  }
+}
+
+footer {
+  background-color: $Warnanavfoot;
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px;
+  color: $warnaFontFooter;
+  height: 200px;
+  .kiri {
+    width: 60%;
+    float: left;
+
+    height: 100%;
+    .nama {
+      width: 50%;
+      float: left;
+    }
+    .kontak {
+      width: 45%;
+      float: right;
+      a {
+        color: $WarnaLinkFooter;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .link-tambahan {
+    height: 100%;
+    width: 25%;
+    a {
+      color: $WarnaLinkFooter;
+      text-decoration: none;
+    }
+  }
+  .kanan {
+    float: right;
+  }
+}
